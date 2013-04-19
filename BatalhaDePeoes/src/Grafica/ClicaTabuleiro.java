@@ -31,6 +31,7 @@ public class ClicaTabuleiro implements MouseListener {
     }
 
     public void mouseClicked(MouseEvent e) {
+        //Comentário teste
         //Salvar contexto para proximo clique
        FTabuleiro.X_ant=e.getX();
        FTabuleiro.Y_ant=e.getY();
